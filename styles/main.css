@@ -1,0 +1,127 @@
+body {
+    background-color: #EAE4D8;
+}
+
+iframe {
+    margin-top: 20px;
+}
+
+a,
+a:hover,
+a:active {
+    color: inherit;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: 1em;
+    font-weight: bold;
+    color: black;
+    margin: 25px 0 0;
+    text-align: justify;
+}
+
+h4 {
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: black;
+    text-align: left;
+}
+
+#container {
+    width: 600px;
+    margin: 30px auto 30px;
+}
+
+#menu {
+    width: 572px;
+    margin: 0 auto 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: #F7F3EC;
+    border: #BDB9B0 4px solid;
+}
+
+#menu a {
+    font-weight: bold;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #743094;
+}
+
+#menu a.active {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+
+#menu a:hover {
+    color: #ad88cf;
+}
+
+#content {
+    background-color: #F7F3EC;
+    padding: 10px;
+}
+
+.picture {
+    display: flex;
+    height: 300px;
+    background-size: 600px 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.picture>div {
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    line-height: 20px;
+    text-shadow: 0 0 10px #000, 0 0 5px #000;
+}
+
+.text_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0 0;
+}
+
+.text_container img {
+    width: 180px;
+    height: auto;
+}
+
+.text_container>.text {
+    padding-left: 10px;
+    text-align: justify;
+    font-size: 16px;
+}
+
+.text_container>.text a {
+    text-decoration: underline dotted #000;
+    text-decoration-thickness: 1px;
+}
+
+.legend {
+    text-align: center;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.sources {
+    margin: 30px 0 10px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.sources a {
+    text-decoration: underline;
+}

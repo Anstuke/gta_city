@@ -1,0 +1,5 @@
+@import url("main.css");
+
+.picture {
+    background-image: url("../images/los_santos.jpg");
+}
